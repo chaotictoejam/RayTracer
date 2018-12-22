@@ -132,7 +132,6 @@ public class RayTracer {
 				continue;
 			}
 			
-			/* insert your code here */
 			Vector3 Intersection = obj.intersectRay(r);
 			if (Intersection != null) {
 				current = Vector3.subtract(Intersection, r.getOrig()).norm();
@@ -171,7 +170,6 @@ public class RayTracer {
 				     // the center of the screen 
 				     // is at the opposite of w axis 
 		
-		/* insert your code here */
 		double pixelSizeX = 4.0/width;
 		double pixelSizeY = 4.0/height;
 		
